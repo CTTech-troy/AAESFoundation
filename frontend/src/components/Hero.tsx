@@ -32,8 +32,8 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[92svh] items-end overflow-hidden pt-24 md:pt-16 text-white bg-fixed bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: 'url(/hero.jpeg)' }}>
+      className="relative flex min-h-[92svh] items-end overflow-hidden pt-24 md:pt-16 text-white bg-scroll md:bg-fixed bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: 'url(/hero.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/40"></div>
 
       <ThreeScene />
