@@ -40,7 +40,7 @@ const galleryImages = [
     title: 'Foundation Launch'
   },
   {
-    id: 6,
+    id: 7,
     src: '/hero.jpeg',
     category: 'Events',
     title: 'Scholarship Winners'

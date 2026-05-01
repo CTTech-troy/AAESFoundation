@@ -1,4 +1,4 @@
-import { GraduationCapIcon, Share2, Twitter, Heart, Briefcase } from 'lucide-react';
+import { GraduationCapIcon, Share2, MessageCircle, Heart, Briefcase } from 'lucide-react';
 
 const footerLinks = [
   { label: 'Overview', href: '#about' },
@@ -9,7 +9,7 @@ const footerLinks = [
 
 const socialLinks = [
   { label: 'Facebook', icon: Share2, href: 'https://facebook.com' },
-  { label: 'X', icon: Twitter, href: 'https://x.com' },
+  { label: 'X', icon: MessageCircle, href: 'https://x.com' },
   { label: 'Instagram', icon: Heart, href: 'https://instagram.com' },
   { label: 'LinkedIn', icon: Briefcase, href: 'https://linkedin.com' }
 ];
