@@ -32,8 +32,8 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[92svh] items-end overflow-hidden pt-16 text-white"
-      style={{ backgroundImage: 'url(/hero.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+      className="relative flex min-h-[92svh] items-end overflow-hidden pt-24 md:pt-16 text-white bg-fixed bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: 'url(/hero.jpeg)' }}>
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/40"></div>
 
       <ThreeScene />
@@ -43,7 +43,7 @@ export function Hero() {
           initial="hidden"
           animate="visible"
           transition={{ staggerChildren: 0.15 }}
-          className="max-w-4xl">
+          className="max-w-4xl" id='badge'>
           <motion.div variants={itemVariants} className="section-kicker mb-6">
             Abeokuta Grammar School &middot; 2026 WAEC Scholarship
           </motion.div>
