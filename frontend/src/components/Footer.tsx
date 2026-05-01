@@ -1,4 +1,4 @@
-import { GraduationCapIcon, Share2, MessageCircle, Heart, Briefcase } from 'lucide-react';
+import {  Share2, MessageCircle, Heart, Briefcase } from 'lucide-react';
 
 const footerLinks = [
   { label: 'Overview', href: '#about' },
